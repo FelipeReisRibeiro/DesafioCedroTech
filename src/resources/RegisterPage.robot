@@ -39,5 +39,8 @@ Valida o cadastro com sucesso
     Capture Page Screenshot
 
 
-Exibe mensagem de erro
-    Wait Until Page Contains         Mensagem de Erro
+Exibe mensagem de erro preencher campos obrigatorios
+    Wait Until Page Contains         Preencha os campos obrigatorios
+
+Exibe mensagem de erro password divergente
+    Wait Until Page Contains         PAssword and con.password does not match

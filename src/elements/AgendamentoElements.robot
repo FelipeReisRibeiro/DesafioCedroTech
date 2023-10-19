@@ -8,7 +8,5 @@ ${SLCT_OnMonth}                       xpath=//select[contains(@name,'fromMonth')
 ${SLCT_OnDay}                         xpath=//select[contains(@name,'fromDay')]
 ${SLCT_ReturnMonth}                   xpath=//select[contains(@name,'toMonth')]
 ${SLCT__ReturnDay}                    xpath=//select[contains(@name,'fromDay')]
-${RDB_}
 ${SLCT_Arriving}                      xpath=//select[contains(@name,'toPort')]
-${SLCT__AirLine}
-${BTN_Continue}
+${BTN_Continue}                       xpath=//input[@name='findFlights']

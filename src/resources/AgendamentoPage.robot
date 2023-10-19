@@ -40,6 +40,7 @@ Preenche os campos de Flight Details de retorno, local "${LocalRetorno}" mes "${
     Click Element                      ${SLCT_OnDay}
     Wait Until Element Is Visible      xpath=//table[1]/tbody[1]/tr[7]/td[2]/select[2]/option[contains(.,'${DiaRetorno}')]
     Click Element                      xpath=//table[1]/tbody[1]/tr[7]/td[2]/select[2]/option[contains(.,'${DiaRetorno}')]
+    Click Element                      ${BTN_Continue}
 
 Finaliza o agendamento com sucesso
     Wait Until Page Contains           Mensagem de sucesso
