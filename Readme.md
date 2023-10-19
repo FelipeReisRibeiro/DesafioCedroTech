@@ -52,7 +52,7 @@ https://webkit.org/blog/6900/webdriver-support-in-safari-10/<br/>
   - Ex. :  C:\Users\XXXXUsuer\AppData\Local\Programs\Python\PythonXXX\Scripts\ <br/>
 
 4 - Para verificar se o Python foi corretamente instalado, abra o pronpt de comando e digete: python --version <br/>
-  O sistema devera exibir a verão do Python instalada <br/><br>
+  O sistema devera exibir a versão do Python instalada <br/><br>
 
 
 **Instalação do Robot FrameWork**
@@ -87,7 +87,7 @@ https://code.visualstudio.com/download <br /><br>
   - Para executar apenas um cenario:<br>
   robot -d ./results -t "@CenarioXX" src\test\XXXXXPage.robot
   - Para executar pela [TAG] ex. [Tags] Todos:<br>
-  robot -d .\results -i Todos src/test  
+  robot -d ./results -i Todos src\test  
 
 
 **Mais Informações Sobre o Robot Framework**

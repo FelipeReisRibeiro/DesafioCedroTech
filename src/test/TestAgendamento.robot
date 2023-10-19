@@ -8,7 +8,7 @@ Test Teardown       Fechar navegador
 *** Test Case ***
 
 @Cenario01
-  [Documentation]    Acessar o site do Guru99 Demo e realizar login com sucesso
+  [Documentation]    Acessar o site do Guru99 Demo e realizar um agendamento com sucesso
   [Tags]    RealizaAgendamento    TesteAgendamento    Todos
   Acessar a Home Page da Guru99
   Seleciona a opção agendamento
